@@ -1,0 +1,14 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    grid: 10px;
+}
+
+.main .tr {
+    cursor: pointer;
+}
+
+.main .tr:hover {
+    transform: scale(1.01);
+    box-shadow: 0 0 5px 0 rgba(0, 117, 243, 0.144)
+}

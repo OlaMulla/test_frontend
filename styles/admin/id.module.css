@@ -1,0 +1,39 @@
+.main {
+    padding: 40px;
+}
+
+.main h1 {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: #aaa
+}
+
+.main a {
+    text-decoration: none;
+}
+
+.main section {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-direction: column;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.main section .card1, .main section .card2 {
+    cursor: pointer;
+    box-shadow: 0 2px 5px 0 #00000060;
+    background-color: white;
+}
+
+.main section .card1 *, .main section .card2 * {
+    transition: none;
+}
+
+.main section .card1:hover, .main section .card2:hover {
+    box-shadow: 0 2px 10px 0 #00000030;
+    background-color: rgb(0, 136, 255);
+    color: white;
+}
